@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h1>Face Recognition System</h1>
+
+    <div class="video-container">
+        <img id="video_feed" src="{{ url_for('video_feed') }}" alt="Video feed">
+    </div>
+
+    <div class="controls">
+        <div class="registration-section">
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button id="registerBtn" onclick="register()">Register New User</button>
+        </div>
+        <button id="recognizeBtn" onclick="recognize()">Recognize Face</button>
+    </div>
+
+    <div id="result" class="result"></div>
+</div>
+{% endblock %}
