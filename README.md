@@ -45,6 +45,14 @@ The structure of this web-based project is as follows:
 
 4. **Recognize Face:** Click **Recognize Face** to identify registered users in real-time.
 
+## Prototype
+
+Below is a screenshot of the Face Recognition System web app prototype.
+
+![Face Recognition System Prototype](https://github.com/SATVIK-SHANKAR/FaceRecognition-WebApp/blob/main/WebAppTest.jpeg?raw=true)
+
+This interface allows users to register their faces by entering their name and recognizing faces in real-time. The detected faces are highlighted with a green box.
+
 ## Key Concepts and Theory
 
 ### Haar Cascade Classifier
